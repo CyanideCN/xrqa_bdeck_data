@@ -1,0 +1,1 @@
+find . -type f -name '*.dat' -exec sed --in-place 's/[[:space:]]\+$//' {} \+
